@@ -1,0 +1,33 @@
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+	font-size: 20px;
+	font-family: arial;
+	color: grey;
+}
+
+a{
+	text-decoration: none;
+}
+
+a .hover{
+	background-color: blue;
+}
+
+@media(max-width: 700px){
+	.container{
+		width: 600px
+	}
+}
+
+@media(max-width: 500px){
+	.container{
+		width: 400px
+	}
+}
+
